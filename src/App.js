@@ -34,14 +34,14 @@ function App() {
                 Dark Mode
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  id="toggleCarousel"
-                  checked={!carouselEnabled}
-                  onChange={() => setCarouselEnabled(!carouselEnabled)}
-                />
-                Turn Off Carousel
-              </label>
+                  <input
+                    type="checkbox"
+                    id="toggleCarousel"
+                    checked={carouselEnabled}
+                    onChange={() => setCarouselEnabled(!carouselEnabled)}
+                  />
+                  Carousel Enabled
+                </label>
             </div>
           </div>
           <nav>
