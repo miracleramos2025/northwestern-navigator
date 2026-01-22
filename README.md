@@ -12,7 +12,7 @@ How to run website:
   The website should open with localhost.
 
   OR
-  - Website Link: https://miracleramos2025.github.io/northwestern_navigator/
+  - Website Link: https://miracleramos2025.github.io/northwestern-navigator/
 
 
 Final Project Presentation Part 1: https://drive.google.com/file/d/1MTIb0O3x_94eiArgynm5p-0rYNgIx_ri/view?usp=share_link
