@@ -15,7 +15,7 @@ function App() {
 });
 
   return (
-    <Router>
+    <Router basename="/northwestern-navigator">
       <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
         <header>
           <div className="header-content">
