@@ -10,9 +10,9 @@ import useDarkMode from './hooks/useDarkMode';
 function App() {
   const [darkMode, setDarkMode] = useDarkMode();
   const [carouselEnabled, setCarouselEnabled] = useState(() => {
-    const savedSetting = localStorage.getItem('carouselEnabled');
-    return savedSetting !== 'disabled';
-  });
+  const savedSetting = localStorage.getItem('carouselEnabled');
+  return savedSetting ? savedSetting === 'enabled' : true;
+});
 
   return (
     <Router>
